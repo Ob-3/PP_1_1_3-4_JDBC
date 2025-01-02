@@ -1,6 +1,5 @@
 package jm.task.core.jdbc.util;
 
-import java.net.URL;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
