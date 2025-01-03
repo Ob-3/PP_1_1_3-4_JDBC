@@ -11,8 +11,8 @@ public class Main {
 
         UserService userService = new UserServiceImpl();
 
-//        userService.createUsersTable();
-//
+        userService.createUsersTable();
+
         userService.saveUser("Name1", "LastName1", (byte) 20);
 
         userService.saveUser("Name2", "LastName2", (byte) 25);
@@ -21,13 +21,13 @@ public class Main {
 
         userService.saveUser("Name4", "LastName4", (byte) 38);
 
-//        userService.removeUserById(12);
-//
-//        userService.getAllUsers();
-//
-//        userService.cleanUsersTable();
-//
-//        userService.dropUsersTable();
+        userService.removeUserById(12);
+
+        userService.getAllUsers();
+
+        userService.cleanUsersTable();
+
+        userService.dropUsersTable();
 
         List<User> users = userService.getAllUsers();
 
